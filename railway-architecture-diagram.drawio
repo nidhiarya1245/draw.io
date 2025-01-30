@@ -1,0 +1,107 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.10">
+  <diagram name="Page-1" id="qoWlc7tGzEXYGuMFV2uM">
+    <mxGraphModel dx="2122" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-1" value="Feature:&lt;div&gt;search&lt;/div&gt;&lt;div&gt;ticket booking&lt;/div&gt;&lt;div&gt;payment&lt;/div&gt;&lt;div&gt;user dashboad&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-2" value="BE ticket serach&lt;div&gt;Nodejs + graphql&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="670" y="112" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-4" value="Elastic search" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="740" y="138" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GGdmMLUcXFdRTJzUDEzj-7" target="GGdmMLUcXFdRTJzUDEzj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-7" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.web2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="138" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GGdmMLUcXFdRTJzUDEzj-9" target="GGdmMLUcXFdRTJzUDEzj-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-9" value="Mobile client" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mobile_client;" vertex="1" parent="1">
+          <mxGeometry y="289" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GGdmMLUcXFdRTJzUDEzj-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GGdmMLUcXFdRTJzUDEzj-10" target="GGdmMLUcXFdRTJzUDEzj-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="199" y="240" />
+              <mxPoint x="390" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-10" value="&lt;div&gt;APIweb gateway&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoint;" vertex="1" parent="1">
+          <mxGeometry x="160" y="121" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GGdmMLUcXFdRTJzUDEzj-11" target="GGdmMLUcXFdRTJzUDEzj-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="GGdmMLUcXFdRTJzUDEzj-11" target="GGdmMLUcXFdRTJzUDEzj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-11" value="API mobile gateway" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoint;" vertex="1" parent="1">
+          <mxGeometry x="156" y="271" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GGdmMLUcXFdRTJzUDEzj-12" target="GGdmMLUcXFdRTJzUDEzj-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-12" value="Ticketbooking APIs&lt;div&gt;Java Enterprise&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-13" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="670" y="260" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-14" value="DynoDB" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="280" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-15" value="Lamda functions" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="12" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-17" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.web2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="10" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=65;entryPerimeter=0;" edge="1" parent="1" source="GGdmMLUcXFdRTJzUDEzj-17" target="GGdmMLUcXFdRTJzUDEzj-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" edge="1" parent="1" source="GGdmMLUcXFdRTJzUDEzj-15" target="GGdmMLUcXFdRTJzUDEzj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=60;entryPerimeter=0;" edge="1" parent="1" source="GGdmMLUcXFdRTJzUDEzj-2" target="GGdmMLUcXFdRTJzUDEzj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-26" value="PaymentGatways" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GGdmMLUcXFdRTJzUDEzj-26" target="GGdmMLUcXFdRTJzUDEzj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-32" value="&lt;div&gt;Train deatils&lt;/div&gt;PK, Train number, train name, is local train" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="420" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-33" value="train stations&lt;div&gt;PK, order number, station name,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;----time of arrival, time of depart&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="420" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-34" value="Station information&lt;div&gt;PK, station code, station name&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="420" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-35" value="Train schedule&lt;div&gt;train PK, station PK, start from, destination, arrival time, depart time, halt time&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="660" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GGdmMLUcXFdRTJzUDEzj-36" value="Train schedule&lt;div&gt;train PK, station PK, start from, destination, arrival time, depart time, halt time&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="660" width="250" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
